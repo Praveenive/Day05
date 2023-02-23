@@ -262,7 +262,7 @@ console.log(str("this is my learning"));
   console.log(summ5([1,2,3,4]));
 
   //4) Prime numbers Arrow method   
-  let prime = function(arr)
+  let prime = (arr) =>
   {
     let i,count,prim =[];
     for(i=0;i<arr.length;i++)
@@ -279,8 +279,8 @@ console.log(str("this is my learning"));
   }
   console.log(prime([7,9,11]));
 
-  /// 5)Palindrome in array (Anonoyms method)
-let palin = function(arr)
+  /// 5)Palindrome in array (Arrow method)
+let palin = (arr) =>
 {
 let rev,i,emp = [];
 for(let i=0;i<arr.length;i++){
